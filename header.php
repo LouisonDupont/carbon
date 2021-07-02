@@ -12,7 +12,7 @@
     <?php /* Fonction essentielle - Ne pas oublier */ wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> class="medium-content-area sidebar-right medium-body-text large-headings large-icons">
+<body <?php body_class('medium-content-area sidebar-right medium-body-text large-headings large-icons'); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
     
